@@ -546,14 +546,14 @@ section {
 .about h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #4e4039;
+  color: #2d405f;
 }
 
 .about h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
-  color: #7a6960;
+  color: #2d405f;
 }
 
 .about i {
@@ -1309,6 +1309,7 @@ section {
   text-align: center;
   font-size: 15px;
   background: #f1f3ff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -1382,14 +1383,14 @@ section {
 #intro .intro-info h2 {
   font-size: 30px;
   color: rgb(150, 130, 130);
+  color: #2d405f;
   
 }
 
 
 @media (max-width: 767px) {
   #intro .intro-info h2 {
-    font-size: 14px;
-    
+    font-size: 14px; 
   }
 }
 
@@ -1440,9 +1441,16 @@ section {
   margin-top: 100px;
 }
 
-.features .content h3 {
+.features .content h3{
   font-weight: 600;
   font-size: 26px;
+  color: #2d405f;
+}
+
+.features .content h2{
+  font-weight: 600;
+  font-size: 26px;
+  color: #2d405f;
 }
 
 .features .content ul {
@@ -1564,6 +1572,57 @@ margin-bottom: 30px;
 }
 .panel-heading a{
  color:#007bff;
+}
+
+@media screen and (max-width: 768px) {
+.features .section-title h2{
+font-size:20px;
+}
+}
+
+
+
+
+/* Clients Section
+--------------------------------*/
+#clients {
+  padding: 60px 0;
+  /* box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
+  background: #fff;
+}
+
+#clients .clients-wrap {
+  /* border-top: 1px solid #d6eaff;
+  border-left: 1px solid #d6eaff; */
+  margin-bottom: 30px;
+}
+
+#clients .client-logo {
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #d6eaff;
+  border-bottom: 1px solid #d6eaff;
+  border-left: 1px solid #d6eaff;
+  border-top: 1px solid #d6eaff;
+  overflow: hidden;
+  background: #fff;
+  height: 160px;
+}
+
+#clients .client-logo:hover img {
+  transform: scale(1.2);
+}
+
+#clients img {
+  transition: all 0.4s ease-in-out;
+}
+
+#clients h3 {
+text-align: center;
+margin-bottom: 30px;
+color: #2d405f;
 }
 
 
